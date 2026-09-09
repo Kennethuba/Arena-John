@@ -1,0 +1,17 @@
+export const garageRoutes = {
+  landing: "/businesses/auto-garage",
+  signup: "/businesses/auto-garage/signup",
+  login: "/businesses/auto-garage/login",
+  dashboard: "/businesses/auto-garage/dashboard",
+  customers: "/businesses/auto-garage/customers",
+  vehicles: "/businesses/auto-garage/vehicles",
+  jobs: "/businesses/auto-garage/jobs",
+  history: "/businesses/auto-garage/history",
+  inventory: "/businesses/auto-garage/inventory",
+  purchases: "/businesses/auto-garage/purchases",
+  sales: "/businesses/auto-garage/sales",
+  suppliers: "/businesses/auto-garage/suppliers",
+  reminders: "/businesses/auto-garage/reminders",
+  reports: "/businesses/auto-garage/reports",
+  settings: "/businesses/auto-garage/settings",
+} as const;
