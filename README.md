@@ -1,8 +1,8 @@
 # BusinessOS
 
-Public website for BusinessOS — a subscription platform that adapts to different kinds of businesses.
+A subscription platform for people who already have a trade. You pay for the software; the business inside it is yours.
 
-This repository currently includes **Step 1 only**: the public home page.
+Auto Garage is the first live workspace. A new company starts with empty books — no sample clients, jobs, or stock.
 
 ## Local setup
 
@@ -15,12 +15,15 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
-- `npm run dev` — start the development server on `0.0.0.0:3000`
+- `npm run dev` — development server on `0.0.0.0:3000`
 - `npm run build` — production build
 - `npm start` — serve the production build
 
-## Home page
+## Routes
 
-Route: `/`
-
-Other navigation links (`/businesses`, `/features`, `/security`, `/pricing`, and the business demo URLs) are placeholders for later steps.
+- Home: `/`
+- Businesses: `/businesses`
+- Auto Garage landing: `/businesses/auto-garage`
+- Sign up: `/businesses/auto-garage/signup`
+- Log in: `/businesses/auto-garage/login`
+- Dashboard (after sign up / log in): `/businesses/auto-garage/dashboard`
